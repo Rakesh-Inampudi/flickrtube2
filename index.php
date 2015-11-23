@@ -3,7 +3,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require_once('functions.php');
+require_once('clubingAPI.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +33,7 @@ require_once('functions.php');
 			<div class="search-header col-lg-12">
 				<div class="block">
 					<div class="masthead">                          	
-						<h3 class="text-muted" style="padding-left: 10px; Font-family: Miller; font-style: bold;"><span style="color: Blue">F</span>lickr<span style="color: Blue">T</span>ube</h3>
+						<h2 class="text-muted"><span style="color: #084B8A">f</span>lickr<span style="color: Red">Tube</h2>
 						<form method="GET">
 							<div class="col-lg-6">
 								<input type="search" class="form-control" id="q" name="q" placeholder="Enter Search Term" Required>

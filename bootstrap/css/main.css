@@ -27,3 +27,15 @@
 			max-height: 400px;
 			margin-bottom: 20px;
 		}
+		
+		@font-face {
+			font-family: CustomHeaderFont;
+			src: url(../fonts/Oswald-Bold.ttf);
+			}
+			
+		
+		.text-muted{
+			padding-left: 10px;
+			font-family: CustomHeaderFont!important;			
+			 
+			}
